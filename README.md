@@ -32,9 +32,16 @@
 </details>
  
 ### 과제
+<details>
+<summary>상세 보기</summary>
+
 - 신체활동, 생체 데이터, 만성질환자 관련 데이터 더 가져오기
+</details>
 
 ## 2차 회의(2024.02.29)
 
 ### 데이터 분류 작업
+<details>
+<summary>상세 보기</summary>
 
+</details>
