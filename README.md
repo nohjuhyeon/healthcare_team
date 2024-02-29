@@ -16,6 +16,9 @@
 - [한국건강증진개발원_보건소 모바일 헬스케어 서비스](https://www.data.go.kr/data/15068787/fileData.do#tab-layer-file)
 - [한국건강증진개발원_보건소 모바일 헬스케어_체성분](https://www.data.go.kr/data/15091595/fileData.do#tab-layer-file)
 - [한국건강증진개발원_보건소 모바일 헬스케어_활동](https://www.data.go.kr/data/15091596/fileData.do#tab-layer-file)
+- [heart disease 2020](https://www.kaggle.com/datasets/aqleemkhan/heart-disease-2020/data)
+- [diabetes Health indicators](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
+- [mental health](https://www.kaggle.com/datasets/dhivyeshrk/diseases-and-symptoms-dataset/data)
 
 ## 1차 회의(2024.02.27)
 ### project process
@@ -53,8 +56,6 @@
     6. 주제 추출 : 분류 & 결론 도출
     7. 최종 전략 제시 
 
-### 데이터 분류
-<details>
-<summary>상세 보기</summary>
-
-</details>
+### 과제
+- heart disease 데이터 분석하기
+- 진행과정 : 데이터 전처리 -> 군집화 -> 군집화 기준 생각 -> 방향성 생각
