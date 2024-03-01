@@ -1,0 +1,17 @@
+jupyterlab
+pyarrow
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+scikit-learn
+wget
+konlpy
+python-mecab-ko
+pyLDAvis
+jinja2
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+pydantic-settings
