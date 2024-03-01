@@ -2,7 +2,7 @@ version: '3.9'
 services:
   jupyter_health:
     container_name: ${CONTAINER_PREFIX}_jupyter_health
-    image: healthcare_team  # Specifies the name for the built image.
+    image: healthcare_team
     build:
       context: .
       dockerfile: Dockerfile
@@ -10,7 +10,8 @@ services:
       - JUPYTER_ENABLE_LAB=yes
     ports:
       - 8888:8888
-
+    networks:
+      - app-network
     command:
       - "jupyter"
       - "lab"
@@ -20,3 +21,6 @@ services:
       - "--allow-root"
       - "--NotebookApp.token=''"
       - "--NotebookApp.notebook_dir='/app'"      
+networks:
+  app-network:
+    driver: bridge

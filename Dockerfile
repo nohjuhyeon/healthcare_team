@@ -21,8 +21,15 @@ RUN git clone https://github.com/nohjuhyeon/healthcare_team ${DIR_NAME}
 # Changes the working directory to /app/${REPO_NAME}. This uses the variable to dynamically set the directory path.
 WORKDIR /app/${DIR_NAME}
 
+
+# requirements.txt를 작업 디렉토리로 복사합니다.
+COPY requirements.txt .
+
+# 필요한 패키지를 설치합니다.
+RUN pip install -r requirements.txt
+
 # RUN pip install --no-cache-dir -r ./requirements.txt
-RUN pip install -r ./requirements.txt
+# RUN pip install -r ./requirements.txt
 
 # RUN rm -rf .git
 
