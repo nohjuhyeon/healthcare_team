@@ -9,6 +9,7 @@ scikit-learn
 wget
 konlpy
 python-mecab-ko
+imblearn
 pyLDAvis
 jinja2
 python-multipart
