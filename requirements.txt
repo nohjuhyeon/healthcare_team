@@ -10,6 +10,8 @@ wget
 konlpy
 python-mecab-ko
 imblearn
+xgboost
+lightgbm 
 pyLDAvis
 jinja2
 python-multipart
