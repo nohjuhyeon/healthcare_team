@@ -1,7 +1,20 @@
-# healthcare_team
+# healthcare_team (머신러닝 프로젝트)
+
+## 개요
+
+21세기의 과학 발전과 의료 산업의 발달은 건강에 대한 사람들의 인식을 크게 바꿔놓았습니다. 특히 심장 질환은 그 중요성 때문에 많은 사람들이 심각하게 고민하는 문제 중 하나입니다. 이러한 상황에서는 CPR(Cardiopulmonary Resuscitation) 같은 응급 처치에 대한 교육도 더욱 중요해졌을 것입니다. 그리고 이러한 환경에서 우리는 DNA 정보 뿐만 아니라 행동 데이터와 질병 데이터를 결합하여 심장 질환을 예측하는 방법을 모색해야 한다는 생각을 하게 되었습니다. 이를 위해 데이터 기반의 머신러닝 알고리즘을 활용하여 주어진 정보로부터 심장 질환을 예측해 보기로 했습니다.
 
 ## 멤버
 - 요한, 석천, 주현
+
+||리드미|
+|--|--|
+|박요한|[개인 README](./docs/yohan/README.md)|
+|문석천||
+|노주현||
+
+<details>
+<summary>다짐</summary>
 
 ## 약속
 - 작업 시 특이사항 슬랙에 남기기 
@@ -12,13 +25,15 @@
 - 스케줄
 - 데이터 분석 담당 분류
 
+</details>
+
 ## 데이터
-- [한국건강증진개발원_보건소 모바일 헬스케어 서비스](https://www.data.go.kr/data/15068787/fileData.do#tab-layer-file)
-- [한국건강증진개발원_보건소 모바일 헬스케어_체성분](https://www.data.go.kr/data/15091595/fileData.do#tab-layer-file)
-- [한국건강증진개발원_보건소 모바일 헬스케어_활동](https://www.data.go.kr/data/15091596/fileData.do#tab-layer-file)
+- ~~[한국건강증진개발원_보건소 모바일 헬스케어 서비스](https://www.data.go.kr/data/15068787/fileData.do#tab-layer-file)~~
+- ~~[한국건강증진개발원_보건소 모바일 헬스케어_체성분](https://www.data.go.kr/data/15091595/fileData.do#tab-layer-file)~~
+- ~~[한국건강증진개발원_보건소 모바일 헬스케어_활동](https://www.data.go.kr/data/15091596/fileData.do#tab-layer-file)~~
 - [heart disease 2020](https://www.kaggle.com/datasets/aqleemkhan/heart-disease-2020/data)
-- [diabetes Health indicators](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
-- [mental health](https://www.kaggle.com/datasets/dhivyeshrk/diseases-and-symptoms-dataset/data)
+- ~~[diabetes Health indicators](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)~~
+- ~~[mental health](https://www.kaggle.com/datasets/dhivyeshrk/diseases-and-symptoms-dataset/data)~~
 
 ## 1차 회의(2024.02.27)
 ### project process
