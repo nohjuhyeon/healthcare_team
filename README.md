@@ -1,20 +1,47 @@
-# healthcare_team (머신러닝 프로젝트)
+## healthcare_team (심장질환 예측 머신러닝 프로젝트)
 
-## 개요
+### 개요
 
 21세기의 과학 발전과 의료 산업의 발달은 건강에 대한 사람들의 인식을 크게 바꿔놓았습니다. 특히 심장 질환은 그 중요성 때문에 많은 사람들이 심각하게 고민하는 문제 중 하나입니다. 이러한 상황에서는 CPR(Cardiopulmonary Resuscitation) 같은 응급 처치에 대한 교육도 더욱 중요해졌을 것입니다. 그리고 이러한 환경에서 우리는 DNA 정보 뿐만 아니라 행동 데이터와 질병 데이터를 결합하여 심장 질환을 예측하는 방법을 모색해야 한다는 생각을 하게 되었습니다. 이를 위해 데이터 기반의 머신러닝 알고리즘을 활용하여 주어진 정보로부터 심장 질환을 예측해 보기로 했습니다.
 
-## 멤버
+### 멤버
 - 요한, 석천, 주현
 
-||리드미|
+||산출물|
 |--|--|
-|박요한|[개인 README](./docs/yohan/README.md)|
+|박요한|[ML 정리](./docs/yohan/README.md) / [분석 ipynb](./docs/yohan/Analysis/helth_analysis.ipynb)|
 |문석천||
 |노주현||
 
+### 결과
+
+- 요한
+
+[Analysis]
+![히트맵](./docs/yohan/image/hitmap_category.png)
+![히트맵 토탈](./docs/yohan/image/hitmap_total.png)
+
+- 나이, 보행정도, 운동여부, 당뇨, 신장질환순으로 위험도 발생
+
+[ML]
+![모델 결과](./docs/yohan/image/model_f1score.png)
+
+최종 성능
+```
+randomForestClassifier 모델
+
+              precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90     84882
+           1       0.87      0.88      0.88     68051
+
+    accuracy                           0.89    152933
+   macro avg       0.89      0.89      0.89    152933
+weighted avg       0.89      0.89      0.89    152933
+```
+
 <details>
-<summary>다짐</summary>
+<summary>회의록</summary>
 
 ## 약속
 - 작업 시 특이사항 슬랙에 남기기 
@@ -25,7 +52,6 @@
 - 스케줄
 - 데이터 분석 담당 분류
 
-</details>
 
 ## 데이터
 - ~~[한국건강증진개발원_보건소 모바일 헬스케어 서비스](https://www.data.go.kr/data/15068787/fileData.do#tab-layer-file)~~
@@ -93,3 +119,5 @@
 
 ### 과제
 - 각자 한 내용에 대한 PPT 만들어 오기
+
+</details>

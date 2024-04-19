@@ -1,11 +1,5 @@
 # 요한 ML README
 
-```
-본 README 문서는 ML진행에 대한 문서입니다. 분석에 대한 문서를 확인하고 싶으시면 아래의 문서를 확인해 주시기 바랍니다. 
-```
-[Analysis README](../Analysis/Analysis_README.md)
-
-
 ## 진행 순서
 ||내용|코드|
 |--|--|--|
